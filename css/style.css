@@ -180,10 +180,14 @@ p{
 }
 
 
+
+
+
 .midContainer{
     background: #F1F2F5;
     clear: both;
-    overflow: hidden;    
+    overflow: hidden;  
+    margin-bottom: 25px;
 }
 .wrapper{
     margin: 0 auto;
@@ -238,6 +242,39 @@ p{
     font-size: 0.9rem;
     line-height: 30px;
     color:#5E6579;
+}
+
+
+
+
+.infoContainer{
+    background: #fff;
+    clear: both;
+    overflow: hidden; 
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.infoinrContainer{
+    
+}
+
+.column3{
+    width: 33.3%;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+
+.meetup{    
+    float: left;
+    height: auto;
+    background: red;
+    color:white;
 }
 
 @media only screen and (min-width: 1030px){
